@@ -45,7 +45,7 @@ async function handleRequest(request) {
     );
   }
  
-// return tips.html
+// return help.html
 if (url.pathname === "/") {
   return new Response(DOCS, {
     status: 200,
